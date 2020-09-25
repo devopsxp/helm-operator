@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJodHRwczovL2hhcmJvci5jbG91ZHdhbGsud29yayI6eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiJDbG91ZHdAbGsyMDE4IiwiZW1haWwiOiIxQDEuY24iLCJhdXRoIjoiWVdSdGFXNDZRMnh2ZFdSM1FHeHJNakF4T0E9PSJ9fX0=
+kind: Secret
+metadata:
+  name: harbor
+  namespace: helm-operator-system 
+type: kubernetes.io/dockerconfigjson
+
